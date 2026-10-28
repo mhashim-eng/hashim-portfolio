@@ -30,3 +30,6 @@ document.getElementById('copyEmail').addEventListener('click', async () => {
   catch (_) { status.textContent = `Email: ${email}`; }
 });
 document.getElementById('year').textContent = new Date().getFullYear();
+
+function updatePortfolioClock() {const el=document.getElementById('portfolioClock');if(!el)return;el.dateTime=new Date().toISOString();el.textContent=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Karachi',dateStyle:'medium',timeStyle:'medium'}).format(new Date())+' · Pakistan (PKT)';}
+updatePortfolioClock();setInterval(updatePortfolioClock,1000);
