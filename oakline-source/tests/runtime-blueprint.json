@@ -1,0 +1,16 @@
+{
+  "steps": [
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; require_once ABSPATH.'wp-admin/includes/plugin.php'; switch_theme('oakline'); activate_plugin('oakline-estimates/oakline-estimates.php');"
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; wp_set_current_user(1); $r=oakline_seed(); if(is_wp_error($r)){throw new Exception($r->get_error_message());}"
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require '/oakline-tests/wordpress-tests.php';"
+    }
+  ]
+}

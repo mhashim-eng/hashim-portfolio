@@ -1,0 +1,39 @@
+WordPress 7.1.4 / PHP 8.3.36
+PASS: Theme is a WordPress block theme
+PASS: Five pages created
+PASS: Demo indexing disabled
+PASS: Editable blocks: home
+PASS: Resolved links: home
+PASS: Editable blocks: about
+PASS: Resolved links: about
+PASS: Editable blocks: services
+PASS: Resolved links: services
+PASS: Editable blocks: projects
+PASS: Resolved links: projects
+PASS: Editable blocks: contact
+PASS: Resolved links: contact
+PASS: Setup never overwrites existing content
+PASS: Demo form does not send
+PASS: Valid form input
+PASS: Reject invalid email
+PASS: Reject invalid consent
+PASS: Reject invalid project_type
+PASS: Reject invalid budget
+PASS: Reject invalid start_date
+PASS: Reject invalid website
+PASS: Reject invalid full_name
+PASS: Reject invalid description
+PASS: Reject cross-origin request
+PASS: Reject live collection in demo mode
+PASS: Reject expired token
+PASS: Reject instant bot submission
+PASS: Valid inquiry saved with mocked mail transport
+PASS: Reject duplicate token replay
+PASS: Single private inquiry stored
+PASS: Record mocked mail acceptance
+PASS: Anonymous cannot read private inquiry
+PASS: Administrator can read inquiry
+PASS: Failed email still retains inquiry
+PASS: Failed transport schedules bounded retry
+PASS: Email retries capped at three
+TOTAL: 37 checks passed. Mail transport mocked; no external messages sent.

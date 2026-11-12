@@ -1,0 +1,106 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "1240px",
+      "wideSize": "1440px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "charcoal",
+          "name": "Charcoal",
+          "color": "#202522"
+        },
+        {
+          "slug": "ivory",
+          "name": "Ivory",
+          "color": "#F7F4EE"
+        },
+        {
+          "slug": "sage",
+          "name": "Sage",
+          "color": "#879785"
+        },
+        {
+          "slug": "bronze",
+          "name": "Bronze",
+          "color": "#BA9367"
+        },
+        {
+          "slug": "white",
+          "name": "White",
+          "color": "#FFFFFF"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "\"DM Serif Display\", Georgia, serif",
+          "slug": "display",
+          "name": "DM Serif Display",
+          "fontFace": [
+            {
+              "fontFamily": "DM Serif Display",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/dm-serif.ttf"
+              ]
+            }
+          ]
+        },
+        {
+          "fontFamily": "Inter, Arial, sans-serif",
+          "slug": "body",
+          "name": "Inter",
+          "fontFace": [
+            {
+              "fontFamily": "Inter",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/inter.ttf"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var:preset|color|ivory",
+      "text": "var:preset|color|charcoal"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|body"
+    },
+    "spacing": {
+      "blockGap": "0"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|display",
+          "fontWeight": "400"
+        }
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    }
+  ]
+}

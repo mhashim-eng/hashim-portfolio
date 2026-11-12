@@ -1,0 +1,22 @@
+{
+  "home": {
+    "title": "Home",
+    "description": "Premium home remodeling in Austin: kitchen, bathroom, flooring and whole-home renovation services. Fictional business demo."
+  },
+  "about": {
+    "title": "About",
+    "description": "Meet the Oakline approach to thoughtful home renovation in Austin, Texas. Fictional business demonstration."
+  },
+  "services": {
+    "title": "Services",
+    "description": "Explore kitchen remodeling, bathroom renovation, flooring and whole-home renovation services in Austin."
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Explore Oakline\u2019s curated renovation inspiration gallery. Stock images, clearly identified as demonstration content."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Plan your home renovation. Preview a free estimate request for your Austin kitchen, bathroom, flooring or whole-home project."
+  }
+}
