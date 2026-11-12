@@ -9,3 +9,5 @@
 - Not verified: production mail inbox receipt, client host caching/backups, actual Safari/Firefox/iOS/Android devices, paid WordPress.com plan features, Lighthouse score or production security certification.
 
 Missing approved business materials remain clearly marked. No invented reviews, office address or project results are included.
+
+- Public GitHub Pages homepage visually verified after publication. Optional hosted WordPress Playground could not initialize in the cloud browser: its WebWorker/storage failed to load before WordPress boot. This does not validate the hosted editor link; use the packaged theme/plugin in a local or hosted WordPress install. The separate CLI WordPress runtime tests passed.

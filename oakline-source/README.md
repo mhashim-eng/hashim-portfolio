@@ -5,7 +5,7 @@ A five-page renovation business website by Muhammad Hashim. Oakline is a fiction
 ## Start here
 
 - **Shareable visual demo:** https://mhashim-eng.github.io/hashim-portfolio/oakline/
-- **WordPress, without buying hosting:** https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fmhashim-eng.github.io%2Fhashim-portfolio%2Foakline%2Fblueprint.json
+- **Optional WordPress Playground link (cloud-browser initialization was blocked; see validation notes):** https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fmhashim-eng.github.io%2Fhashim-portfolio%2Foakline%2Fblueprint.json
 - **Install on your own WordPress:** use `dist/downloads/oakline.zip` and `dist/downloads/oakline-estimates.zip`.
 - See `docs/HANDOVER.md` for setup, editing, form delivery and launch instructions.
 
