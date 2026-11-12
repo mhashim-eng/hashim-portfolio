@@ -1,0 +1,34 @@
+{
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "login": true,
+  "landingPage": "/",
+  "steps": [
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "url",
+        "url": "https://mhashim-eng.github.io/hashim-portfolio/oakline/downloads/oakline.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "url",
+        "url": "https://mhashim-eng.github.io/hashim-portfolio/oakline/downloads/oakline-estimates.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; wp_set_current_user(1); $r=oakline_seed(); if(is_wp_error($r)){throw new Exception($r->get_error_message());}"
+    }
+  ]
+}
