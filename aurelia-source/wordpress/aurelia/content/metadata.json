@@ -1,0 +1,58 @@
+{
+  "home": {
+    "title": "Home",
+    "description": "Explore home at Aurelia Aesthetics & Wellness, a fictional Miami studio website demo."
+  },
+  "about": {
+    "title": "About",
+    "description": "Explore about at Aurelia Aesthetics & Wellness, a fictional Miami studio website demo."
+  },
+  "services": {
+    "title": "Services",
+    "description": "Explore services at Aurelia Aesthetics & Wellness, a fictional Miami studio website demo."
+  },
+  "service": {
+    "title": "Service Details",
+    "description": "Explore service details at Aurelia Aesthetics & Wellness, a fictional Miami studio website demo."
+  },
+  "booking": {
+    "title": "Book a Consultation",
+    "description": "Explore book a consultation at Aurelia Aesthetics & Wellness, a fictional Miami studio website demo."
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Explore our team at Aurelia Aesthetics & Wellness, a fictional Miami studio website demo."
+  },
+  "gallery": {
+    "title": "Gallery",
+    "description": "Explore gallery at Aurelia Aesthetics & Wellness, a fictional Miami studio website demo."
+  },
+  "reviews": {
+    "title": "Reviews",
+    "description": "Explore reviews at Aurelia Aesthetics & Wellness, a fictional Miami studio website demo."
+  },
+  "journal": {
+    "title": "Journal",
+    "description": "Explore journal at Aurelia Aesthetics & Wellness, a fictional Miami studio website demo."
+  },
+  "article": {
+    "title": "Journal Article",
+    "description": "Explore journal article at Aurelia Aesthetics & Wellness, a fictional Miami studio website demo."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Explore contact at Aurelia Aesthetics & Wellness, a fictional Miami studio website demo."
+  },
+  "faq": {
+    "title": "FAQs",
+    "description": "Explore faqs at Aurelia Aesthetics & Wellness, a fictional Miami studio website demo."
+  },
+  "policies": {
+    "title": "Policies",
+    "description": "Explore policies at Aurelia Aesthetics & Wellness, a fictional Miami studio website demo."
+  },
+  "thank-you": {
+    "title": "Thank You",
+    "description": "Explore thank you at Aurelia Aesthetics & Wellness, a fictional Miami studio website demo."
+  }
+}

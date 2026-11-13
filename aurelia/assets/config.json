@@ -1,0 +1,115 @@
+{
+  "services": [
+    {
+      "id": "signature",
+      "name": "Signature Facial",
+      "price": 95,
+      "duration": 60,
+      "category": "Facials",
+      "description": "A considered facial appointment with time to discuss your preferences and everyday routine.",
+      "image": "hero"
+    },
+    {
+      "id": "hydrating",
+      "name": "Hydrating Facial",
+      "price": 120,
+      "duration": 75,
+      "category": "Facials",
+      "description": "An unhurried facial experience focused on your comfort and the studio\u2019s approved service plan.",
+      "image": "facial"
+    },
+    {
+      "id": "skin",
+      "name": "Skin Consultation",
+      "price": 45,
+      "duration": 30,
+      "category": "Consultations",
+      "description": "A conversation about your skincare goals, questions and available studio services.",
+      "image": "hero"
+    },
+    {
+      "id": "led",
+      "name": "LED Facial Experience",
+      "price": 85,
+      "duration": 45,
+      "category": "Facials",
+      "description": "Explore this sample studio experience in a consultation before making a treatment decision.",
+      "image": "facial"
+    },
+    {
+      "id": "relaxation",
+      "name": "Relaxation Facial",
+      "price": 110,
+      "duration": 60,
+      "category": "Wellness",
+      "description": "A quiet pause in your day, with a facial appointment designed around a calm studio experience.",
+      "image": "facial"
+    },
+    {
+      "id": "wellness",
+      "name": "Wellness Consultation",
+      "price": 60,
+      "duration": 45,
+      "category": "Consultations",
+      "description": "Make space for a conversation about your preferences and the wellness experiences available.",
+      "image": "studio"
+    }
+  ],
+  "providers": [
+    {
+      "id": "ava",
+      "name": "Studio host A",
+      "title": "Facial appointments",
+      "services": [
+        "signature",
+        "hydrating",
+        "led",
+        "relaxation"
+      ],
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "start": "09:00",
+      "end": "19:00"
+    },
+    {
+      "id": "noah",
+      "name": "Studio host B",
+      "title": "Consultation appointments",
+      "services": [
+        "skin",
+        "wellness"
+      ],
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "start": "09:00",
+      "end": "19:00"
+    }
+  ],
+  "timezone": "America/New_York",
+  "closed_dates": [],
+  "hours": {
+    "weekday": [
+      "09:00",
+      "19:00"
+    ],
+    "saturday": [
+      "10:00",
+      "17:00"
+    ]
+  },
+  "lead_hours": 2,
+  "cancel_hours": 24,
+  "horizon_days": 90
+}

@@ -1,0 +1,55 @@
+PASS: Real block theme active
+PASS: Demo indexing disabled
+PASS: All core pages and templates created
+PASS: Setup protects existing pages
+PASS: Editable blocks: home
+PASS: Editable blocks: about
+PASS: Editable blocks: services
+PASS: Editable blocks: booking
+PASS: Editable blocks: team
+PASS: Editable blocks: gallery
+PASS: Editable blocks: reviews
+PASS: Editable blocks: journal
+PASS: Editable blocks: contact
+PASS: Editable blocks: faq
+PASS: Editable blocks: policies
+PASS: Editable blocks: thank-you
+PASS: Six services configured
+PASS: Future provider availability
+PASS: Sunday closed
+PASS: Incompatible provider rejected
+PASS: Invalid calendar date rejected
+PASS: Past date rejected
+PASS: Booking horizon enforced
+PASS: Unavailable date respected
+PASS: Miami winter timezone
+PASS: Miami summer timezone
+PASS: Invalid email rejected
+PASS: Invalid consent rejected
+PASS: Invalid phone rejected
+PASS: Invalid name rejected
+PASS: Demo blocks server collection
+PASS: Valid reservation saved
+PASS: Private appointment stored
+PASS: Overlapping duration unavailable
+PASS: Second booking rejected
+PASS: Repeated submission rejected
+PASS: Mail acceptance recorded
+PASS: Test mode routes notification to test inbox
+PASS: Reminder scheduled
+PASS: Atomic lock rejects occupied interval
+PASS: Invalid management token rejected
+PASS: Rescheduling succeeds
+PASS: Rescheduling releases old interval
+PASS: Rescheduling reserves new interval
+PASS: Cancellation succeeds
+PASS: Cancellation releases interval
+PASS: Cancelled appointment cannot be cancelled again
+PASS: Inquiry saved
+PASS: Lead status initialized
+PASS: No public appointment REST exposure
+PASS: Anonymous cannot access appointment
+PASS: Cross-origin mutation rejected
+PASS: Editable journal posts seeded
+PASS: Original duration respected at closing
+TOTAL: 54 checks passed. Mail mocked; no external delivery.

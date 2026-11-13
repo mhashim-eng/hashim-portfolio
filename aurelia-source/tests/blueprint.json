@@ -1,0 +1,16 @@
+{
+  "steps": [
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; require_once ABSPATH.'wp-admin/includes/plugin.php'; switch_theme('aurelia'); activate_plugin('aurelia-booking/aurelia-booking.php');"
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; wp_set_current_user(1); $r=aurelia_seed(); if(is_wp_error($r)){throw new Exception($r->get_error_message());}"
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require '/aurelia-tests/wordpress-tests.php';"
+    }
+  ]
+}

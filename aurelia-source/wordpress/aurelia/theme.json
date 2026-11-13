@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "1260px",
+      "wideSize": "1440px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "charcoal",
+          "name": "Charcoal",
+          "color": "#25292A"
+        },
+        {
+          "slug": "cream",
+          "name": "Soft cream",
+          "color": "#FAF8F4"
+        },
+        {
+          "slug": "champagne",
+          "name": "Champagne",
+          "color": "#D8C4A0"
+        },
+        {
+          "slug": "blush",
+          "name": "Blush",
+          "color": "#F4E4E0"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "slug": "playfair",
+          "name": "Playfair Display",
+          "fontFamily": "Playfair, Georgia, serif",
+          "fontFace": [
+            {
+              "fontFamily": "Playfair",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/playfair.ttf"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "inter",
+          "name": "Inter",
+          "fontFamily": "Inter, sans-serif",
+          "fontFace": [
+            {
+              "fontFamily": "Inter",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/inter.ttf"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "styles": {
+    "spacing": {
+      "blockGap": "0"
+    },
+    "color": {
+      "background": "#FAF8F4",
+      "text": "#25292A"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|inter"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|playfair",
+          "fontWeight": "400"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "inherit"
+        }
+      }
+    }
+  }
+}
